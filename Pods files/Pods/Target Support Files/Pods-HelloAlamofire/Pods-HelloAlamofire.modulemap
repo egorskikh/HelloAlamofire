@@ -1,6 +1,0 @@
-framework module Pods_HelloAlamofire {
-  umbrella header "Pods-HelloAlamofire-umbrella.h"
-
-  export *
-  module * { export * }
-}
