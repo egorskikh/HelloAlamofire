@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		144324BB26CFEF9D00019789 /* Greeting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144324BA26CFEF9D00019789 /* Greeting.swift */; };
 		1481122326CFA31000BBB087 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1481122226CFA31000BBB087 /* AppDelegate.swift */; };
 		1481122526CFA31000BBB087 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1481122426CFA31000BBB087 /* SceneDelegate.swift */; };
 		1481122726CFA31000BBB087 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1481122626CFA31000BBB087 /* ViewController.swift */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		033DFB8FDE9D53BCE26970D0 /* Pods_HelloAlamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelloAlamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		144324BA26CFEF9D00019789 /* Greeting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Greeting.swift; sourceTree = "<group>"; };
 		1481121F26CFA31000BBB087 /* HelloAlamofire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloAlamofire.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1481122226CFA31000BBB087 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1481122426CFA31000BBB087 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				1481122226CFA31000BBB087 /* AppDelegate.swift */,
 				1481122426CFA31000BBB087 /* SceneDelegate.swift */,
 				1481122626CFA31000BBB087 /* ViewController.swift */,
+				144324BA26CFEF9D00019789 /* Greeting.swift */,
 				1481122826CFA31000BBB087 /* Main.storyboard */,
 				1481122B26CFA31800BBB087 /* Assets.xcassets */,
 				1481122D26CFA31800BBB087 /* LaunchScreen.storyboard */,
@@ -80,7 +83,6 @@
 				FEBB571C54441426FF207410 /* Pods-HelloAlamofire.debug.xcconfig */,
 				74716B92920D6C77D9BECDF9 /* Pods-HelloAlamofire.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -208,6 +210,7 @@
 			files = (
 				1481122726CFA31000BBB087 /* ViewController.swift in Sources */,
 				1481122326CFA31000BBB087 /* AppDelegate.swift in Sources */,
+				144324BB26CFEF9D00019789 /* Greeting.swift in Sources */,
 				1481122526CFA31000BBB087 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
